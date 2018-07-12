@@ -100,10 +100,10 @@ if (this.state.currentEffect == 0){
                   onLoadEnd={() => {
                     this.arSelectorRef.reset()
                   }}
-                  source={require('./res/portal_archway/portal_archway.vrx')}
-                  resources={[require('./res/portal_archway/portal_archway_diffuse.png'),
-                              require('./res/portal_archway/portal_archway_normal.png'),
-                              require('./res/portal_archway/portal_archway_specular.png')]}
+                  source={require('./res/viro_objects_portals/portal_wood_frame/portal_wood_frame.vrx')}
+                  resources={[require('./res/viro_objects_portals/portal_wood_frame/portal_wood_frame_diffuse.png'),
+                              require('./res/viro_objects_portals/portal_wood_frame/portal_wood_frame_normal.png'),
+                              require('./res/viro_objects_portals/portal_wood_frame/portal_wood_frame_specular.png')]}
                   type="VRX"/>
               </ViroPortal>
             <Viro360Image source={require("./res/wakanda_360.jpg")} />
@@ -119,14 +119,14 @@ if (this.state.currentEffect == 0){
       <ViroARPlane anchorId={anchor.anchorId} dragType="FixedToWorld">
         <ViroNode key="soldier">
           <Viro3DObject 
-            source={require('./res/emerging.vrx')}
+            source={require('./res/soldier.vrx')}
             resources={[
               require('./res/ely-vanguardsoldier-kerwinatienza_diffuse.png'),
               require('./res/ely-vanguardsoldier-kerwinatienza_glow.png'),
               require('./res/ely-vanguardsoldier-kerwinatienza_normal.png'),
               require('./res/ely-vanguardsoldier-kerwinatienza_specular.png')
             ]}
-            scale={[0.005, 0.005, 0.005 ]}
+            scale={[0.008, 0.008, 0.008 ]}
             type="VRX"
             animation={{name:'mixamo.com',
               run:true,
