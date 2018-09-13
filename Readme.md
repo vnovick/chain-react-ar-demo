@@ -1,5 +1,7 @@
 # Chain React AR demo app by [VladimirNovick](twitter.com/VladimirNovick) build with [ViroMedia](https://viromedia.com/viroreact/)
 
+[![](http://img.youtube.com/vi/WYCZgWEnHkg/0.jpg)](http://www.youtube.com/watch?v=WYCZgWEnHkg "")
+
 - Monsters ✅
 - Portal ✅
 - Particles(Snow, Flames, Fireworks) ✅
